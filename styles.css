@@ -35,6 +35,14 @@
   border-radius: 8px;
   border: none;
   color: var(--text-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+.btn:active {
+  background-color: var(--highlight-color);
 }
 
 .btn[disabled], .btn:disabled {
